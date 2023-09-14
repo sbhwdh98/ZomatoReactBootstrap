@@ -14,14 +14,12 @@ const Search = () => {
         <h2 style={{ color: '#1b1464', cursor: 'pointer', 'margin-top': '3px' }}>Search Filter App</h2>
     </div>
 
-    <Form>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
-            <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-            </Form.Text>
+    <Form className="d-flex justify-content-center align-items-center mt-3">
+        <Form.Group className="mx-2 col-lg-4" controlId="formBasicEmail">
+            <Form.Control type="text" placeholder="Search Restaurants ..." />
         </Form.Group>
+        <button type="button" class="btn text-light col-lg-1" style={{background:'#ed4c67'}}>Submit</button>
+        {/* 15:48 */}
     </Form>
     </>
   )
