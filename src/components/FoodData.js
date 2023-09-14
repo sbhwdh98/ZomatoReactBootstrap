@@ -100,4 +100,4 @@ const FoodData = [
     },
 ];
 
-export default Fooddata;
+export default FoodData;
