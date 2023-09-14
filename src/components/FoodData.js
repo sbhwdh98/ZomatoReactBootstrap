@@ -1,4 +1,4 @@
-const Fooddata = [
+const FoodData = [
     {
         id: 1,
         rname: "Massala Theoryy",
