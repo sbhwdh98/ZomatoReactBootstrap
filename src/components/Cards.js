@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const Cards = () => {
     return (
         <>
-            {/* import Card from 'react-bootstrap/Card' */}
+            {/* npm i react-bootstrap-card */}
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="holder.js/100px180" />
                 <Card.Body>
