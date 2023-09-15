@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import FoodData from './FoodData'
-import './style.css';
+import Cards from './Cards';
 import Form from 'react-bootstrap/Form';
+import './style.css';
 
 const Search = () => {
   const [fdata, setFdata] = useState(FoodData);
@@ -21,6 +22,17 @@ const Search = () => {
         <button type="button" class="btn text-light col-lg-1" style={{background:'#ed4c67'}}>Submit</button>
         {/* 15:48 */}
     </Form>
+
+    <section className="item_section mt-4 container">
+      <h2 className='px-4' style={{fontWeight:400}}>
+      Restaurants in Ahmedabad Open Now
+      </h2>
+    </section>
+
+    <div className="row mt-2">
+      <Cards/>
+    </div>
+    
     </>
   )
 }
