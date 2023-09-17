@@ -20,7 +20,6 @@ const Search = () => {
             <Form.Control type="text" placeholder="Search Restaurants ..." />
         </Form.Group>
         <button type="button" class="btn text-light col-lg-1" style={{background:'#ed4c67'}}>Submit</button>
-        {/* 15:48 */}
     </Form>
 
     <section className="item_section mt-4 container">
